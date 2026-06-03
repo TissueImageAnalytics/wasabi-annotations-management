@@ -23,10 +23,10 @@ from utils import (
 )
 
 # The Girder item ID for one WSI. Replace with your own.
-ITEM_ID = "5e3801c281265220a8d391ed"
+ITEM_ID = "Replace with your Girder item ID"
 
 # Local folder where annotations will be saved.
-OUTPUT_DIR = Path("downloaded_annotations")
+OUTPUT_DIR = Path("Replace with your local output directory")
 
 
 def download_annotations_from_item(

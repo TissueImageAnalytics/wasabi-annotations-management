@@ -28,10 +28,10 @@ from utils import (
 )
 
 # Girder item ID for the WSI. Replace with your own.
-ITEM_ID = "5e3801c281265220a8d391ed"
+ITEM_ID = "Replace with your Girder item ID"
 
 # Delete annotations whose annotation name ends with this suffix.
-ANNOTATION_SUFFIX = "_4_class_eunet"
+ANNOTATION_SUFFIX = "Replace with your annotation suffix"
 
 
 # ---------------------------------------------------------------------------

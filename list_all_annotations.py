@@ -27,10 +27,10 @@ from utils import (
 )
 
 # Girder folder containing WSI items. Replace with your own folder ID.
-FOLDER_ID = "679b87bf8fd95c173de1ed66"
+FOLDER_ID = "Replace with your Girder folder ID"
 
 # Optional CSV output. Set to None if you do not want to save a CSV.
-OUTPUT_CSV = Path("wasabi_annotation_list.csv")
+OUTPUT_CSV = Path("Replace with your local output CSV file")
 
 
 # ---------------------------------------------------------------------------

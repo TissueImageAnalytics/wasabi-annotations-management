@@ -28,7 +28,7 @@ from utils import (
 
 # The ID of the WASABI/Girder folder containing the WSI items.
 # Replace with your own Girder folder ID.
-FOLDER_ID = "5e3801a281265220a8d391eb"
+FOLDER_ID = "Replace with your Girder folder ID"
 
 # Local folder containing the annotation JSON files.
 # Example:
@@ -317,17 +317,17 @@ if __name__ == "__main__":
     gc = connect()
 
     # First run in dry-run mode to check matching and duplicate detection.
-    # bulk_upload_annotations(
-    #     gc=gc,
-    #     folder_id=FOLDER_ID,
-    #     annotation_dir=ANNOTATION_DIR,
-    #     dry_run=True,
-    # )
-
-    # After verifying the output, set dry_run=False to actually upload.
     bulk_upload_annotations(
         gc=gc,
         folder_id=FOLDER_ID,
         annotation_dir=ANNOTATION_DIR,
-        dry_run=False,
+        dry_run=True,
     )
+
+    # After verifying the output, set dry_run=False to actually upload.
+    # bulk_upload_annotations(
+    #     gc=gc,
+    #     folder_id=FOLDER_ID,
+    #     annotation_dir=ANNOTATION_DIR,
+    #     dry_run=False,
+    # )

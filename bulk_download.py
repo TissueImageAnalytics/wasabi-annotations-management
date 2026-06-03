@@ -36,10 +36,10 @@ from utils import (
 )
 
 # Girder folder containing WSI items. Replace with your own folder ID.
-FOLDER_ID = "5e3801a281265220a8d391eb"
+FOLDER_ID = "Replace with your Girder folder ID"
 
 # Local output folder where downloaded annotations will be saved.
-OUTPUT_DIR = Path("downloaded_annotations")
+OUTPUT_DIR = Path("Replace with your local output directory")
 
 
 # ---------------------------------------------------------------------------

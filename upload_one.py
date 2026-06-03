@@ -20,10 +20,10 @@ from utils import (
 )
 
 # Replace with your own Girder item ID.
-ITEM_ID = "679b87cf8fd95c173de1ed75"
+ITEM_ID = "Replace with your Girder item ID"
 
 # Path to the local annotation JSON file to upload.
-ANNOTATION_JSON = Path("annotations/example_annotation.json")
+ANNOTATION_JSON = Path("Replace with your local annotation JSON file")
 
 
 def upload_annotation_document(gc, item_id: str, annotation_path: Path):

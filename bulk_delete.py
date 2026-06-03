@@ -28,10 +28,10 @@ from utils import (
 )
 
 # Folder containing WSI items. Replace with your own Girder folder ID.
-FOLDER_ID = "5e3801a281265220a8d391eb"
+FOLDER_ID = "Replace with your Girder folder ID"
 
 # Delete annotations whose names end with this suffix.
-ANNOTATION_SUFFIX = "_4_class_eunet"
+ANNOTATION_SUFFIX = "Replace with your annotation suffix"
 
 
 # ---------------------------------------------------------------------------
