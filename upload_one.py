@@ -6,8 +6,6 @@ This script:
 2. Loads a local annotation JSON file.
 3. Uploads it to the specified WSI item using the large-image annotation endpoint.
 
-The annotation will appear in the WASABI "Annotations" section,
-not in "Files & Links".
 """
 
 from pathlib import Path

@@ -7,8 +7,6 @@ This script:
 3. Creates a local output folder for that WSI.
 4. Saves each annotation as a separate JSON file.
 
-The downloaded annotations come from the WASABI "Annotations" section,
-not from "Files & Links".
 """
 
 from pathlib import Path

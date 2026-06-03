@@ -11,10 +11,6 @@ This script does the following:
 6. Skips existing annotations to avoid duplicates.
 7. Uploads missing annotations using the Girder large-image annotation endpoint.
 
-Important:
-    This script uses the /annotation endpoint, not uploadFileToItem().
-    That means annotations appear in the WASABI "Annotations" section,
-    not merely in "Files & Links".
 """
 
 from pathlib import Path
@@ -33,10 +29,9 @@ FOLDER_ID = "Replace with your Girder folder ID"
 # Local folder containing the annotation JSON files.
 # Example:
 #   /home/user/annotations
-ANNOTATION_DIR = Path("./annotations_for_upload")
+ANNOTATION_DIR = Path("Replace with your local annotation directory")
 ANNOTATION_FILE_SUFFIXES= [
-    "_tissue_mask",
-    "_annotation_tissue"
+    "Replace with any known suffixes in your annotation filenames, such as '_tissue_mask', '_4_class_eunet', etc."
 ]
 
 
