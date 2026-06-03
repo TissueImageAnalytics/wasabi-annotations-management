@@ -11,7 +11,6 @@ The downloaded annotations come from the WASABI "Annotations" section,
 not from "Files & Links".
 """
 
-import json
 from pathlib import Path
 
 from utils import (

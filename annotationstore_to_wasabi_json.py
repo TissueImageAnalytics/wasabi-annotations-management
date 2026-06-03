@@ -8,7 +8,6 @@ Supported geometry types: Polygon, LineString, LinearRing.
 """
 
 import json
-import os
 from pathlib import Path
 
 from tiatoolbox.annotation.storage import SQLiteStore

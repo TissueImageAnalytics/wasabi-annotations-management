@@ -100,8 +100,11 @@ def build_annotation_lookup(annotation_dir: Path) -> dict[str, list[Path]]:
     the returned dictionary may be:
 
         {
-            "1007643": Path(".../1007643_4_class_eunet.json"),
-            "1007643": Path(".../1007643_5_class_eunet.json"),
+            "1007643": 
+            [
+                Path(".../1007643_4_class_eunet.json"), 
+                Path(".../1007643_5_class_eunet.json")
+            ],
         }
 
     Notes
