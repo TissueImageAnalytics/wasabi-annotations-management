@@ -1,5 +1,5 @@
 # WASABI Python Scripts For TIA Internal Users  
-Python scripts for managing annotations on the [WASABI](https://wasabi.dcs.warwick.ac.uk) platform, which is powered by [Girder](https://girder.readthedocs.io/).
+Python scripts for managing annotations on the [WASABI](https://wasabi.dcs.warwick.ac.uk) platform, which is powered by [HistomicsTK](https://github.com/digitalslidearchive/histomicstk) and [Girder](https://girder.readthedocs.io/).
 
 These scripts interact with the **Annotations** section of WASABI using the Girder REST API.
 
